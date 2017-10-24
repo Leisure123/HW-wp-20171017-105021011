@@ -48,8 +48,8 @@ public class LoginFrame extends JFrame{
                         MainFrame mfrm = new MainFrame(LoginFrame.this);
                         mfrm.setVisible(true);
                         LoginFrame.this.setVisible(false);
-//                        tfID.setText("");
-//                        pfPW.setText("");
+                        tfID.setText("");
+                        pfPW.setText("");
                     }else{
                         JOptionPane.showMessageDialog(LoginFrame.this,"Password is wrong!");
                     }
